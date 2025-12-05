@@ -8,7 +8,7 @@ const allProducts = [
   {
     id: 1,
     name: "Premium Rose Water",
-    price: "$24.99",
+    price: "Ksh24.99",
     category: "Toners & Mists",
     description: "Pure, organic rose water for hydration and natural glow. Perfect for all skin types.",
     image: "/luxury-rose-water-bottle-skincare.jpg",
@@ -18,7 +18,7 @@ const allProducts = [
   {
     id: 2,
     name: "Raw Shea Butter",
-    price: "$18.99",
+    price: "Ksh18.99",
     category: "Moisturizers",
     description: "Unrefined African shea butter for deep moisturization and skin repair.",
     image: "/raw-shea-butter-jar-natural-skincare.jpg",
@@ -28,7 +28,7 @@ const allProducts = [
   {
     id: 3,
     name: "Vitamin C Serum",
-    price: "$32.99",
+    price: "Ksh32.99",
     category: "Serums",
     description: "Brightening serum with natural vitamin C for radiant, youthful skin.",
     image: "/vitamin-c-serum-bottle-luxury-skincare.jpg",
@@ -38,7 +38,7 @@ const allProducts = [
   {
     id: 4,
     name: "Hyaluronic Acid Serum",
-    price: "$28.99",
+    price: "Ksh28.99",
     category: "Serums",
     description: "Intense hydration serum that plumps and smooths fine lines.",
     image: "/hyaluronic-acid-serum-luxury-bottle.jpg",
@@ -48,7 +48,7 @@ const allProducts = [
   {
     id: 5,
     name: "Niacinamide Serum",
-    price: "$26.99",
+    price: "Ksh26.99",
     category: "Serums",
     description: "Pore-refining serum that controls oil and improves skin texture.",
     image: "/niacinamide-serum-skincare-bottle.jpg",
@@ -58,7 +58,7 @@ const allProducts = [
   {
     id: 6,
     name: "Vanilla Lip Balm",
-    price: "$12.99",
+    price: "Ksh12.99",
     category: "Lip Care",
     description: "Nourishing lip balm with natural vanilla for soft, smooth lips.",
     image: "/vanilla-lip-balm-natural-skincare.jpg",
@@ -68,7 +68,7 @@ const allProducts = [
   {
     id: 7,
     name: "Coconut Lip Balm",
-    price: "$12.99",
+    price: "Ksh12.99",
     category: "Lip Care",
     description: "Tropical coconut lip balm for ultimate lip hydration and protection.",
     image: "/coconut-lip-balm-natural-skincare.jpg",
@@ -78,7 +78,7 @@ const allProducts = [
   {
     id: 8,
     name: "Honey Oat Face Mask",
-    price: "$22.99",
+    price: "Ksh22.99",
     category: "Treatments",
     description: "Gentle exfoliating mask with honey and oats for smooth, glowing skin.",
     image: "/honey-oat-face-mask-natural-skincare.jpg",
@@ -89,7 +89,7 @@ const allProducts = [
   {
     id: 9,
     name: "Complete Self-Care Package",
-    price: "$89.99",
+    price: "Ksh89.99",
     category: "Packages",
     description: "Complete skincare routine with Rose Water, Shea Butter, Vitamin C Serum, and Lip Balm.",
     image: "/luxury-skincare-gift-set-package.jpg",
@@ -99,7 +99,7 @@ const allProducts = [
   {
     id: 10,
     name: "Serum Trio Package",
-    price: "$79.99",
+    price: "Ksh79.99",
     category: "Packages",
     description: "All three premium serums: Vitamin C, Hyaluronic Acid, and Niacinamide.",
     image: "/serum-trio-package-luxury-skincare.jpg",
@@ -109,7 +109,7 @@ const allProducts = [
   {
     id: 11,
     name: "Lip Care Duo",
-    price: "$22.99",
+    price: "Ksh22.99",
     category: "Packages",
     description: "Both Vanilla and Coconut lip balms for complete lip care.",
     image: "/lip-care-duo-package-natural.jpg",
@@ -119,7 +119,7 @@ const allProducts = [
   {
     id: 12,
     name: "Starter Skincare Package",
-    price: "$59.99",
+    price: "Ksh59.99",
     category: "Packages",
     description: "Perfect for beginners: Rose Water, Shea Butter, and one serum of choice.",
     image: "/starter-skincare-package-natural.jpg",
@@ -149,7 +149,7 @@ export default function ProductsGrid() {
 
   const handleWhatsAppOrder = (message) => {
     const encodedMessage = encodeURIComponent(message)
-    const whatsappUrl = `https://wa.me/1234567890?text=${encodedMessage}`
+    const whatsappUrl = `https://wa.me/254703201556?text=${encodedMessage}`
     window.open(whatsappUrl, "_blank")
   }
 

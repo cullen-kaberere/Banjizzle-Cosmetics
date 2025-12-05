@@ -7,32 +7,32 @@ const featuredProducts = [
   {
     id: 1,
     name: "Premium Rose Water",
-    price: "$24.99",
+    price: "Ksh1,200",
     description: "Pure, organic rose water for hydration and natural glow",
     image: "/luxury-rose-water-bottle-skincare.jpg",
-    whatsappMessage: "Hi! I'm interested in the Premium Rose Water ($24.99). Can you tell me more about it?",
+    whatsappMessage: "Hi! I'm interested in the Premium Rose Water (Ksh1,200). Can you tell me more about it?",
   },
   {
     id: 2,
-    name: "Raw Shea Butter",
-    price: "$18.99",
-    description: "Unrefined African shea butter for deep moisturization",
+    name: "Face Serum / Oily Skin Serum",
+    price: "Ksh1,200",
+    description: "Wholesale price (Min 10 pieces)",
     image: "/raw-shea-butter-jar-natural-skincare.jpg",
-    whatsappMessage: "Hi! I'm interested in the Raw Shea Butter ($18.99). Can you tell me more about it?",
+    whatsappMessage: "Hi! I'm interested in the Raw Shea Butter (Ksh1,200). Can you tell me more about it?",
   },
   {
     id: 3,
-    name: "Vitamin C Serum",
-    price: "$32.99",
-    description: "Brightening serum with natural vitamin C for radiant skin",
+    name: "Vitamin E Oil",
+    price: "Ksh1,000",
+    description: "Wholesale price (Min 10 pieces)",
     image: "/vitamin-c-serum-bottle-luxury-skincare.jpg",
     whatsappMessage: "Hi! I'm interested in the Vitamin C Serum ($32.99). Can you tell me more about it?",
   },
   {
     id: 4,
-    name: "Self-Care Package",
-    price: "$89.99",
-    description: "Complete skincare routine with our signature products",
+    name: "Combine Self-Care Package",
+    price: "Ksh7,000",
+    description: "Consists of Black Soap, Rose Water, Shea Butter..",
     image: "/luxury-skincare-gift-set-package.jpg",
     whatsappMessage: "Hi! I'm interested in the Self-Care Package ($89.99). Can you tell me more about it?",
   },
@@ -59,7 +59,7 @@ export default function FeaturedProducts() {
 
   const handleWhatsAppOrder = (message) => {
     const encodedMessage = encodeURIComponent(message)
-    const whatsappUrl = `https://wa.me/1234567890?text=${encodedMessage}`
+    const whatsappUrl = `https://wa.me/254703201556?text=${encodedMessage}`
     window.open(whatsappUrl, "_blank")
   }
 
