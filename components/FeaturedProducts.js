@@ -21,6 +21,9 @@ const featuredProducts = [
     whatsappMessage: "Hi! I'm interested in the Raw Shea Butter (Ksh1,200). Can you tell me more about it?",
   },
 
+
+
+  
   {
     id: 3,
     name: "Vitamin E Oil",
