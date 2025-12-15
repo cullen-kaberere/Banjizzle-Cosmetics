@@ -12,6 +12,8 @@ const featuredProducts = [
     image: "/luxury-rose-water-bottle-skincare.jpg",
     whatsappMessage: "Hi! I'm interested in the Premium Rose Water (Ksh1,200). Can you tell me more about it?",
   },
+
+  
   {
     id: 2,
     name: "Face Serum / Oily Skin Serum",
