@@ -298,10 +298,10 @@ p {
 
 .mobile-menu {
   position: fixed;
-  top: 95px;
+  top: 55px;
   left: 50%;
   transform: translateX(-50%) translateY(-10px);
-  width: 220px;
+  width: 100px;
 
   background: rgba(248, 246, 240, 0.97);
   backdrop-filter: blur(18px);
