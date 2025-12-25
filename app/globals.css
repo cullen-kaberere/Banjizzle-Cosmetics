@@ -505,8 +505,8 @@ p {
    ============================ */
 
 .hero {
-  min-height: 100vh;
-  padding-top: 120px; /* space for floating header */
+  min-height: 90vh;
+  padding-top: 80px; /* space for floating header */
   display: flex;
   align-items: center;
   justify-content: center;
