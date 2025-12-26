@@ -95,6 +95,10 @@ export const metadata = {
   },
   category: "Beauty & Cosmetics",
   generator: "v0.app",
+  icons: {
+    icon: "/banji-favicon2.png",
+  },
+  
 }
 
 export default function RootLayout({ children }) {
