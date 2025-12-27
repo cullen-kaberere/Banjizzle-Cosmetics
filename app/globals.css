@@ -421,7 +421,7 @@ p {
 }
 
 /* Cards */
-.card {
+/* .card {
   background: var(--color-white);
   border-radius: var(--radius-lg);
   padding: var(--spacing-xl);
@@ -482,7 +482,7 @@ p {
   font-size: 0.95rem;
 }
 
-/* Grid Layouts */
+/* Grid Layouts 
 .grid {
   display: grid;
   gap: var(--spacing-xl);
@@ -498,7 +498,7 @@ p {
 
 .grid-4 {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-}
+} */
 
 /* ============================
    Luxury Hero Section

@@ -1,0 +1,21 @@
+.main {
+  padding-top: 140px;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.section,
+.sectionAlt {
+  padding: 4rem 1rem;
+}
+
+.sectionAlt {
+  background: var(--color-light-gold);
+}

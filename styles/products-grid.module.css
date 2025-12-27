@@ -1,0 +1,136 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+/* SECTION TITLES */
+.sectionTitle {
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  text-align: center;
+  font-weight: 600;
+  color: var(--color-deep-green);
+}
+
+.sectionSub {
+  text-align: center;
+  opacity: 0.7;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+/* CARD */
+.card {
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(12px);
+  border-radius: 22px;
+  overflow: hidden;
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.12);
+}
+
+/* IMAGE */
+.imageWrap {
+  position: relative;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+}
+
+.imageWrap img {
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.card:hover img {
+  transform: scale(1.08);
+}
+
+/* CATEGORY PILL */
+.category {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: rgba(15, 61, 46, 0.9);
+  color: white;
+  font-size: 0.7rem;
+  padding: 6px 12px;
+  border-radius: 999px;
+  letter-spacing: 0.4px;
+}
+
+/* CONTENT */
+.content {
+  padding: 1.2rem 1.2rem 1.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.price {
+  font-weight: 600;
+  color: var(--color-deep-green);
+}
+
+.desc {
+  font-size: 0.85rem;
+  opacity: 0.7;
+  margin-bottom: 0.8rem;
+}
+
+/* CTA */
+.cta {
+  margin-top: auto;
+  text-align: center;
+  padding: 0.7rem 1rem;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #0f3d2e, #1c6e52);
+  color: white;
+  font-size: 0.85rem;
+  transition: opacity 0.3s ease;
+}
+
+.cta:hover {
+  opacity: 0.85;
+}
+
+/* MOBILE */
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .content {
+    padding: 1rem;
+  }
+
+  .desc {
+    display: none;
+  }
+}
